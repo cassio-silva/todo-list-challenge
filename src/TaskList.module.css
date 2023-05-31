@@ -1,0 +1,100 @@
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 60%;
+  max-width: 736px;
+  margin: 0 auto;
+}
+
+.controlGroup {
+  display: flex;
+  width: 100%;
+
+  gap: 8px;
+  margin-bottom: 64px;
+}
+
+.controlGroup input {
+  width: 100%;
+  height: 54px;
+
+  border-radius: 8px;
+  padding: 1rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  color: var(--gray-200);
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: 'Inter', sans-serif;
+}
+
+.controlGroup button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: 100%;
+  max-width: 90px;
+  height: 54px;
+
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: var(--gray-100);
+
+  background: var(--blue-500);
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.controlGroup button:hover {
+  background: var(--blue-300);
+}
+
+.taskListheading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-bottom: 24px;
+}
+
+.taskNumber {
+  display: block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--gray-400);
+
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.headingGroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.taskListheading .total {
+  color: var(--blue-300);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.taskListheading .completed {
+  color: var(--purple-200);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
